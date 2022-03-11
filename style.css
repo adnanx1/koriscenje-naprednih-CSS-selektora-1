@@ -1,0 +1,20 @@
+a[href]{
+    color: green;
+}
+a[href~="https://www.link-group.eu/"]{
+    color:red;
+}
+#second-div p:nth-child(2n+1){
+    color: blue;
+}
+#second-div p:nth-child(2n+2){
+    color:red;
+}
+#first-div p::after {
+    content: " -NEW";
+    color: yellow;
+    }
+#some-div:hover  {
+    cursor: pointer;
+    font-style: italic;    
+}
